@@ -2,9 +2,42 @@ import React from 'react';
 
 // Mock data for demonstration
 const mockProducts = [
-  { id: 1, name: 'Product 1', price: 99.99, description: 'Description for Product 1' },
-  { id: 2, name: 'Product 2', price: 149.99, description: 'Description for Product 2' },
-  { id: 3, name: 'Product 3', price: 199.99, description: 'Description for Product 3' },
+  {
+    id: 1,
+    name: 'MacBook Pro 14" M3 Pro',
+    price: 1999.99,
+    description: 'Apple M3 Pro chip, 18GB RAM, 512GB SSD, 14-inch Liquid Retina XDR display'
+  },
+  {
+    id: 2,
+    name: 'Sony WH-1000XM5',
+    price: 399.99,
+    description: 'Industry-leading noise cancellation, 30-hour battery life, premium sound quality'
+  },
+  {
+    id: 3,
+    name: 'Samsung 65" QLED 4K TV',
+    price: 1299.99,
+    description: 'Quantum HDR, Smart TV features, 4K resolution, HDR10+ support'
+  },
+  {
+    id: 4,
+    name: 'Nintendo Switch OLED',
+    price: 349.99,
+    description: '7-inch OLED screen, 64GB internal storage, enhanced audio'
+  },
+  {
+    id: 5,
+    name: 'Canon EOS R6 Mark II',
+    price: 2499.99,
+    description: '24.2MP Full-frame CMOS, 4K video, 12fps continuous shooting'
+  },
+  {
+    id: 6,
+    name: 'Dyson V15 Detect',
+    price: 699.99,
+    description: 'Laser dust detection, 60-minute runtime, HEPA filtration'
+  }
 ];
 
 const ProductList = ({ searchQuery = '', onProductSelect }) => {
